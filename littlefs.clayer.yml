@@ -1,0 +1,13 @@
+layer:
+# A layer is a collection of pre-configured source files or components
+  type: LittleFS
+  description: littlefs file system
+
+  add-path:
+    - ./
+
+  groups:
+    - group: littlefs
+      files:
+        - file: ./lfs.c
+        - file: ./lfs_util.c

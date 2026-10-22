@@ -1,0 +1,6 @@
+name: littlefs
+build:
+  cmake: .
+enable: FS_LITTLEFS
+settings:
+  layer: littlefs.clayer.yml
